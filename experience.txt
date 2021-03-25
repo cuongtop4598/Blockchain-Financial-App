@@ -1,0 +1,4 @@
+1. Dùng go.mod để tự động import package vào nếu như bị báo lỗi
+2. Dùng proto để sinh file thì phải đầy đủ đường dẫn
+3. Sau khi sinh code mà vẫn báo lỗi package không được import thì tiếp tục làm lại go mod tidy để tự động cập nhật package vào module.
+4. Trong file .proto cần có option là go_package="path muốn sinh ra"
